@@ -1,0 +1,202 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contenido-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: yellow;
+}
+
+.contenido-header img{
+    width: 23%;
+}
+
+.sitio a{
+    display: inline-block;
+    margin-left: -80px;
+}
+
+
+.sitio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.sitio h1{
+    margin-right: 300px;
+    margin-top: 5px;
+}
+
+.barra{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 20px;
+    background-color: black;
+    padding: 14px;
+}
+
+.barra nav{
+    padding: 5px;
+    margin-left: 100px;
+}
+
+.opciones a{
+    color: rgb(235, 232, 232);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.opciones a:hover{
+    color:yellow;
+}
+
+.tienda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.tienda img{
+    width: 500px;
+    margin-left: 100px;
+}
+
+.texto-tienda{
+    margin-right: 200px;
+}
+
+/*footer*/
+.site-footer{
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+.contenedor-footer{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-footer p{
+    color: white;
+    font-size: 20px;
+}
+
+.contenedor-footer span{
+    font-weight: bold;
+}
+
+/*pagina nosotros*/
+.texto-nosotros{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: -40px;
+}
+
+.nosotros img{
+    width: 500px;
+    margin-left: 50px;
+}
+
+.nosotros{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nosotros p{
+    margin-top: 40px;
+    line-height: 30px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+/*pagina catalogo*/
+.titulo-catalogo{
+    text-align: center;
+    font-size: 20px;
+}
+
+.lista-productos{
+    margin-top: -40px;
+    align-items: center;
+    margin: 0 auto;
+    margin-right: 90px;
+    margin-left: 160px;
+    margin-bottom: 80px;
+}
+
+.lista-productos li img:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale3d(5deg);
+    cursor: pointer;
+    width: 200px;
+}
+
+.lista-productos li{
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.lista-productos li input{
+    background-color:transparent;
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.lista-productos li input:hover{
+    cursor: pointer;
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+
+/*producto*/
+.titulo-producto{
+    text-align: center;
+    font-size: 40px;
+}
+
+.producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: -40px;
+    margin-right: 20px;
+}
+
+.producto img{
+    margin-left: 100px;
+    margin-right: 30px;
+}
+
+
+.producto p{
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+    display: inline-block;
+}
+
+.producto span{
+    font-size: 27px;
+    font-weight: bold;
+    color: black;
+}
